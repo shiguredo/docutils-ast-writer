@@ -17,7 +17,7 @@ Please read https://github.com/shiguredo/oss/blob/master/README.en.md before use
 Docutils AST Writer について
 ============================
 
-このリポジトリは @jimo1001 の https://github.com/jimo1001/docutils-ast-writer フォークです。
+このリポジトリは `@jimo1001 <https://github.com/johejo/>`_ の https://github.com/jimo1001/docutils-ast-writer フォークです。
 
 時雨堂がメンテナンスをしています。
 
