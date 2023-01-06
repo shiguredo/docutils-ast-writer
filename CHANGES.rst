@@ -15,6 +15,10 @@ FIX
 shiguredo
 ============================
 
+- [CHANGE] Docutils のバージョンを ``docutils>=0.18,<0.20`` にする
+
+  - Sphinx に揃えてる
+  - @voluntas
 - [CHANGE] Python 3.10 以上を前提にする
 
   - @voluntas

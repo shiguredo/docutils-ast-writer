@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 from setuptools import setup, find_packages
 
 setup(
@@ -14,11 +11,12 @@ setup(
     url='https://github.com/shiguredo/docutils-ast-writer',
     packages=find_packages(),
     install_requires=[
-        'docutils>=0.12'
+        # Sphinx 最新版に揃える
+        'docutils>=0.18,<0.20'
     ],
     entry_points="""
         [console_scripts]
         rst2ast = rst2ast.cmd:run
     """,
-    python_requires=">=3.10"
+    python_requires='>=3.10'
 )
