@@ -28,7 +28,7 @@ Docutils AST Writer について
 
 .. code-block:: console
 
-   $ pip install git+https://github.com/shiguredo/docutils-ast-writer@shiguredo#egg=docutils-ast-writer
+   $ pip install git+https://github.com/shiguredo/docutils-ast-writer@shiguredo
 
 
 requirements.txt を利用している場合は以下を追記してください。
