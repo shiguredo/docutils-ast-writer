@@ -28,7 +28,7 @@ Docutils AST Writer について
 
 .. code-block:: console
 
-   $ pip install git+https://github.com/shiguredo/docutils-ast-writer@shiguredo
+   $ pip install -e git+https://github.com/shiguredo/docutils-ast-writer@shiguredo#egg=docutils-ast-writer
 
 
 requirements.txt を利用している場合は以下を追記してください。
@@ -42,7 +42,7 @@ requirements.txt を利用している場合は以下を追記してください
 ======================
 
 .. code-block:: console
-  
+
    $ rst2ast [options] [<source> [<destination>]]
 
 
