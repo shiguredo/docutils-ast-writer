@@ -2,27 +2,18 @@
 Docutils AST Writer
 ##############################
 
-`docutils-ast-writer` is AST writer of Docutils.
+`docutils-ast-writer` は Docutils の AST writer です。
 
-Installation
+インストール
 ======================
 
-From Pypi::
+requirements.text に以下を書く
 
-  pip install docutils-ast-writer
+::
 
-  or
+    -e git+https://github.com/shiguredo/docutils-ast-writer@shiguredo#egg=docutils-ast-writer
 
-  easy_install docutils-ast-writer
-
-Manual Installation::
-
-  git clone https://github.com/jimo1001/docutils-ast-writer.git
-  cd docutils-ast-writer
-  python setup.py install
-
-
-Usage
+使い方
 ======================
 
 ::
@@ -30,7 +21,7 @@ Usage
    rst2ast [options] [<source> [<destination>]]
 
 
-License
+ライセンス
 ======================
 
 ::
