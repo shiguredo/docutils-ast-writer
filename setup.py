@@ -20,5 +20,5 @@ setup(
         [console_scripts]
         rst2ast = rst2ast.cmd:run
     """,
-    python_requires=">=3.7"
+    python_requires=">=3.10"
 )

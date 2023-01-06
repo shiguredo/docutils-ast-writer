@@ -15,7 +15,7 @@ FIX
 shiguredo
 ============================
 
-- [CHANGE] Python 3.7 以上を前提にする
+- [CHANGE] Python 3.10 以上を前提にする
 
   - @voluntas
 - [FIX] 利用していない引数を変更する
