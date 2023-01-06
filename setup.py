@@ -6,11 +6,12 @@ from setuptools import setup, find_packages
 setup(
     name='docutils-ast-writer',
     description='AST Writer for docutils',
-    version='0.1.2',
+    version='2023.1.0',
     author='jimo1001',
     author_email='jimo1001@gmail.com',
+    maintainer='Shiguredo Inc.',
     license='MIT',
-    url='https://github.com/jimo1001/docutils-ast-writer',
+    url='https://github.com/shiguredo/docutils-ast-writer',
     packages=find_packages(),
     install_requires=[
         'docutils>=0.12'
@@ -19,5 +20,5 @@ setup(
         [console_scripts]
         rst2ast = rst2ast.cmd:run
     """,
-    use_2to3 = True
+    python_requires=">=3.7"
 )
