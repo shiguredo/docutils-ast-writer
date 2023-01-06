@@ -2,12 +2,29 @@
 Docutils AST Writer
 ##############################
 
-`docutils-ast-writer` は Docutils の AST writer です。
+About Shiguredo's open source software
+==============================================
+
+We will not respond to PRs or issues that have not been discussed on Discord. Also, Discord is only available in Japanese.
+
+Please read https://github.com/shiguredo/oss/blob/master/README.en.md before use.
+
+時雨堂のオープンソースソフトウェアについて
+==============================================
+
+利用前に https://github.com/shiguredo/oss をお読みください。
+
+Docutils AST Writer について
+============================
+
+このリポジトリは @jimo1001 の https://github.com/jimo1001/docutils-ast-writer フォークです。
+
+時雨堂がメンテナンスをしています。
 
 インストール
 ======================
 
-requirements.text に以下を書く
+requirements.text に以下を追記してください。PyPI には登録を行いません。
 
 ::
 
