@@ -24,18 +24,26 @@ Docutils AST Writer について
 インストール
 ======================
 
-requirements.text に以下を追記してください。PyPI には登録を行いません。
+**PyPI には登録を行っていません**
+
+.. code-block:: console
+
+   $ pip install git+https://github.com/shiguredo/docutils-ast-writer@shiguredo#egg=docutils-ast-writer
+
+
+requirements.txt を利用している場合は以下を追記してください。
 
 ::
 
-    -e git+https://github.com/shiguredo/docutils-ast-writer@shiguredo#egg=docutils-ast-writer
+  -e git+https://github.com/shiguredo/docutils-ast-writer@shiguredo#egg=docutils-ast-writer
+
 
 使い方
 ======================
 
-::
-
-   rst2ast [options] [<source> [<destination>]]
+.. code-block:: console
+  
+   $ rst2ast [options] [<source> [<destination>]]
 
 
 ライセンス
